@@ -889,6 +889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -3400,6 +3405,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
       propertyPath: m_Name
       value: Picture 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6460,7 +6469,7 @@ GameObject:
   - component: {fileID: 306508155}
   - component: {fileID: 306508154}
   - component: {fileID: 306508158}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left Middle Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7239,6 +7248,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_Name
       value: Door Key 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_RootOrder
@@ -8429,6 +8442,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Note 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
         type: 3}
@@ -11009,7 +11027,7 @@ Transform:
   m_GameObject: {fileID: 455274840}
   serializedVersion: 2
   m_LocalRotation: {x: -0.89438945, y: 0.015561438, z: 0.031227272, w: 0.4459263}
-  m_LocalPosition: {x: -0.0011, y: -0.055, z: 0.0374}
+  m_LocalPosition: {x: -0.0004, y: -0.0684, z: 0.0475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13915,7 +13933,7 @@ GameObject:
   - component: {fileID: 611441015}
   - component: {fileID: 611441014}
   - component: {fileID: 611441018}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right Top Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14268,6 +14286,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_Name
       value: Toolbox Key 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_RootOrder
@@ -15622,7 +15644,7 @@ GameObject:
   - component: {fileID: 679287895}
   - component: {fileID: 679287894}
   - component: {fileID: 679287896}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left Bottom Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16156,6 +16178,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_Name
       value: Toolbox Key 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_RootOrder
@@ -17176,7 +17202,7 @@ Transform:
   m_GameObject: {fileID: 724462760}
   serializedVersion: 2
   m_LocalRotation: {x: -0.90544546, y: 0.018418541, z: 0.039525244, w: 0.42221677}
-  m_LocalPosition: {x: 0, y: -0.05519999, z: 0.038200237}
+  m_LocalPosition: {x: 0.001, y: -0.0692, z: 0.0499}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21662,7 +21688,7 @@ GameObject:
   - component: {fileID: 945038722}
   - component: {fileID: 945038721}
   - component: {fileID: 945038725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left Top Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27323,7 +27349,7 @@ GameObject:
   - component: {fileID: 977355158}
   - component: {fileID: 977355157}
   - component: {fileID: 977355161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right Middle Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29319,6 +29345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door Key 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06b07971e74834929a95ddafac2f5f5b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -30032,6 +30062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Note 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 53898782657511949, guid: 8ea0514dc7fa2924092191e250ad2a79,
         type: 3}
@@ -37531,7 +37566,7 @@ GameObject:
   - component: {fileID: 1342155072}
   - component: {fileID: 1342155074}
   - component: {fileID: 1342155073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lever 2 Pull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38956,6 +38991,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
       propertyPath: m_Name
       value: Picture 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae19ba4d8852a44e98fc0f383c7bc7fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43212,7 +43251,7 @@ GameObject:
   - component: {fileID: 1673368124}
   - component: {fileID: 1673368123}
   - component: {fileID: 1673368126}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lever 1 Pull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48150,8 +48189,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880896698}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.89438945, y: 0.015561438, z: 0.031227272, w: 0.4459263}
+  m_LocalPosition: {x: -0.0004, y: -0.0684, z: 0.0475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50959,7 +50998,7 @@ GameObject:
   - component: {fileID: 2104609118}
   - component: {fileID: 2104609117}
   - component: {fileID: 2104609121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right Bottom Drawer Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51523,7 +51562,7 @@ Transform:
   m_GameObject: {fileID: 2112451092}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7642415, y: -0.19270924, z: 0.19270918, w: 0.58451796}
-  m_LocalPosition: {x: 0.0278, y: -0.0579, z: 0.0123}
+  m_LocalPosition: {x: 0.0313, y: -0.0634, z: 0.0139}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52278,7 +52317,7 @@ GameObject:
   - component: {fileID: 36523145904287902}
   - component: {fileID: 36523145904287901}
   - component: {fileID: 36523145904287903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Picture 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
