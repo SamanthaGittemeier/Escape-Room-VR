@@ -37769,6 +37769,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 5337178919928647250}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 5337178920344736524}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -63309,7 +63333,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1361053014114072578, guid: e57eeff3304357446b36a16414912ce4,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5337178919928647251}
+      addedObject: {fileID: 5337178919928647254}
     - targetCorrespondingSourceObject: {fileID: 1361053014114072578, guid: e57eeff3304357446b36a16414912ce4,
         type: 3}
       insertIndex: -1
@@ -63456,7 +63480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 5337178919928647251}
+  - {fileID: 5337178919928647254}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -63491,7 +63515,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SwitchOn
+          m_StringArgument: Switch2On
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5337178919928647249}
@@ -63638,7 +63662,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SwitchOff
+          m_StringArgument: Switch2On
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5337178919928647249}
@@ -63713,8 +63737,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
---- !u!135 &5337178919928647251
-SphereCollider:
+--- !u!65 &5337178919928647254
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -63732,8 +63756,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.15
-  m_Center: {x: -0.045, y: 3.594086e-20, z: 0.049601972}
+  m_Size: {x: 0.115416214, y: 0.2236498, z: 0.075}
+  m_Center: {x: -0.0557416, y: 0, z: 0.03892972}
 --- !u!64 &5337178919931435310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69737,7 +69761,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8079601170158181920, guid: ef17984c4a9f4354eab4be502bb4b541,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5337178920344736525}
+      addedObject: {fileID: 5337178920344736531}
     - targetCorrespondingSourceObject: {fileID: 8079601170158181920, guid: ef17984c4a9f4354eab4be502bb4b541,
         type: 3}
       insertIndex: -1
@@ -69788,7 +69812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 5337178920344736525}
+  - {fileID: 5337178920344736531}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -69886,7 +69910,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SwitchOff
+          m_StringArgument: SwitchOn
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5337178920344736528}
@@ -69961,27 +69985,6 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
---- !u!135 &5337178920344736525
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599941147}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.15
-  m_Center: {x: -0.000000014901161, y: 3.594086e-20, z: 0.049601972}
 --- !u!82 &5337178920344736528
 AudioSource:
   m_ObjectHideFlags: 0
@@ -70078,6 +70081,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &5337178920344736531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599941147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13689938, y: 0.2236498, z: 0.075}
+  m_Center: {x: -0.00000001490116, y: 4.817699e-21, z: 0.036222763}
 --- !u!1001 &5337178920385048040
 PrefabInstance:
   m_ObjectHideFlags: 0
