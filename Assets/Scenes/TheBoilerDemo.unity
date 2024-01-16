@@ -3012,6 +3012,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 368343988}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -9152,16 +9164,16 @@ GameObject:
   - component: {fileID: 368343992}
   - component: {fileID: 368343991}
   - component: {fileID: 368343990}
+  - component: {fileID: 368343995}
   - component: {fileID: 368343994}
   - component: {fileID: 368343993}
-  - component: {fileID: 368343995}
   m_Layer: 0
   m_Name: Step 12 Clue Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &368343989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9169,17 +9181,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368343988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.053}
+  m_LocalRotation: {x: -1.4210855e-14, y: 0.7071068, z: -1.7117045e-14, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 504864656}
-  m_Father: {fileID: 579034555317396456}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1533899046}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.325}
+  m_AnchoredPosition: {x: -0.52299976, y: 1.1069999}
   m_SizeDelta: {x: 1.25, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &368343990
@@ -9278,7 +9290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 0}
+  - {fileID: 368343995}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -9410,8 +9422,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.4094692, y: 0.6239552, z: 0.10027917}
-  m_Center: {x: 0.0073934942, y: -0.022436319, z: 0.094351836}
+  m_Size: {x: 1.3709421, y: 1.0463036, z: 0.37249517}
+  m_Center: {x: 0, y: 0, z: 0.1699453}
 --- !u!1 &371816536
 GameObject:
   m_ObjectHideFlags: 0
@@ -11430,7 +11442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &454634050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12198,12 +12210,12 @@ GameObject:
   - component: {fileID: 504864658}
   - component: {fileID: 504864657}
   m_Layer: 0
-  m_Name: Step 12 Clue
+  m_Name: Step 12 Clue Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &504864656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20928,9 +20940,9 @@ GameObject:
   - component: {fileID: 777897547}
   - component: {fileID: 777897546}
   - component: {fileID: 777897545}
-  - component: {fileID: 777897550}
   - component: {fileID: 777897549}
   - component: {fileID: 777897548}
+  - component: {fileID: 777897550}
   m_Layer: 0
   m_Name: Step 8 Clue Canvas
   m_TagString: Untagged
@@ -21167,8 +21179,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.84372807, y: 0.4948721, z: 0.106579304}
-  m_Center: {x: 0.0020217896, y: -0.0008840561, z: 0.05331683}
+  m_Size: {x: 0.86720514, y: 0.3669684, z: 0.06635952}
+  m_Center: {x: 0.0038926601, y: -0.007067561, z: 0.03320694}
 --- !u!114 &777897550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41840,6 +41852,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1059678111327986525}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -42914,6 +42938,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 368343989}
   - {fileID: 1076450790}
   - {fileID: 2036128014}
   - {fileID: 579034555317396452}
@@ -47217,9 +47242,9 @@ GameObject:
   - component: {fileID: 1804741652}
   - component: {fileID: 1804741651}
   - component: {fileID: 1804741650}
+  - component: {fileID: 1804741647}
   - component: {fileID: 1804741649}
   - component: {fileID: 1804741648}
-  - component: {fileID: 1804741647}
   m_Layer: 0
   m_Name: Step 10 Clue Text Canvas
   m_TagString: Untagged
@@ -47301,7 +47326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 0}
+  - {fileID: 1804741647}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -54464,7 +54489,6 @@ Transform:
   m_Children:
   - {fileID: 579034555317396450}
   - {fileID: 579034555317396454}
-  - {fileID: 368343989}
   m_Father: {fileID: 579034555317396452}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &579034555318199232
@@ -78501,21 +78525,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 575361934}
+      - m_Target: {fileID: 1452347735}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1452347729}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
