@@ -14436,12 +14436,12 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.031096749, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -5.795497, y: 0.76309675, z: 11.233669}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
   m_YMotion: 0
-  m_ZMotion: 2
+  m_ZMotion: 1
   m_AngularXMotion: 0
   m_AngularYMotion: 0
   m_AngularZMotion: 0
@@ -81570,7 +81570,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 118
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!4 &8753911638910287893
 Transform:
@@ -81682,7 +81682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8753911638909803581}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000047964697, y: 0.8846774, z: 0.00000010527722, w: 0.46620372}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.3982224, y: -0.676, z: 8.824001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -81695,7 +81695,7 @@ Transform:
   - {fileID: 8753911638910287897}
   - {fileID: 8753911638910287903}
   m_Father: {fileID: 824347851}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!54 &8753911638910287902
 Rigidbody:
   m_ObjectHideFlags: 0
