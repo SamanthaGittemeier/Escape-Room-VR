@@ -10816,8 +10816,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4912531, y: 0.062193297, z: 0.36215064}
-  m_Center: {x: 0.00000032782555, y: -0.0000000055879354, z: -0.00000093877316}
+  m_Size: {x: 0.4912531, y: 0.018628897, z: 0.36215064}
+  m_Center: {x: 0.00000032782555, y: -0.037379645, z: -0.00000093877316}
 --- !u!153 &384829591
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -19388,7 +19388,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697681838}
-  m_ConnectedBody: {fileID: 8753911638910287892}
+  m_ConnectedBody: {fileID: 384829592}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -22797,7 +22797,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757118586}
-  m_ConnectedBody: {fileID: 8753911638910287892}
+  m_ConnectedBody: {fileID: 173353305}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -25965,8 +25965,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.49125248, y: 0.06219345, z: 0.3621504}
-  m_Center: {x: 0.00000036507845, y: 0.000000024214387, z: -0.0000000074505815}
+  m_Size: {x: 0.49125248, y: 0.006676256, z: 0.3621504}
+  m_Center: {x: 0.00000037252903, y: -0.010376653, z: -0.00000001490116}
 --- !u!1001 &889852688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33443,8 +33443,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "4 Ropes\n   Screwdrivers\n5 Pencils\n32 Nails\n   Boxes of Screws\n3 Locks\n  
-    Rolls of Tape\n2 Oil Spray"
+  m_text: "4 Ropes\n   Screwdrivers\n5 Pencils\n2 Scissors\n   Boxes of Screws\n3
+    Locks\n   Rolls of Tape\n2 Oil Spray"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -36381,8 +36381,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4912531, y: 0.062193297, z: 0.36215064}
-  m_Center: {x: 0.00000032782555, y: -0.0000000055879354, z: -0.00000093877316}
+  m_Size: {x: 0.4912531, y: 0.01028496, z: 0.36215064}
+  m_Center: {x: 0.00000032782555, y: -0.041738562, z: -0.00000093877316}
 --- !u!153 &1045162564
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -47563,7 +47563,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520983636}
-  m_ConnectedBody: {fileID: 8753911638910287892}
+  m_ConnectedBody: {fileID: 1900170062}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -54117,7 +54117,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843912869}
-  m_ConnectedBody: {fileID: 8753911638910287892}
+  m_ConnectedBody: {fileID: 8753911638910287906}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -57839,7 +57839,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011388316}
-  m_ConnectedBody: {fileID: 8753911638910287892}
+  m_ConnectedBody: {fileID: 1045162565}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -87212,7 +87212,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8753911638909803571}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -87808,8 +87808,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4912531, y: 0.062193297, z: 0.36215064}
-  m_Center: {x: 0.00000032782555, y: -0.0000000055879354, z: -0.00000093877316}
+  m_Size: {x: 0.4912531, y: 0.009076238, z: 0.36215064}
+  m_Center: {x: 0.00000032782555, y: -0.015670111, z: -0.00000093877316}
 --- !u!4 &8753911638910287897
 Transform:
   m_ObjectHideFlags: 0
@@ -87846,8 +87846,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4912531, y: 0.062193297, z: 0.36215064}
-  m_Center: {x: 0.00000032782555, y: -0.0000000055879354, z: -0.00000093877316}
+  m_Size: {x: 0.4912531, y: 0.020692917, z: 0.36215064}
+  m_Center: {x: 0.00000032782555, y: -0.034779675, z: -0.0000009387732}
 --- !u!4 &8753911638910287899
 Transform:
   m_ObjectHideFlags: 0
@@ -88052,8 +88052,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4912531, y: 0.062193297, z: 0.36215064}
-  m_Center: {x: 0.00000032782555, y: -0.0000000055879354, z: -0.00000093877316}
+  m_Size: {x: 0.4912531, y: 0.022525527, z: 0.36215064}
+  m_Center: {x: 0.00000032782555, y: -0.04266357, z: -0.00000093877316}
 --- !u!153 &8753911638910287905
 ConfigurableJoint:
   m_ObjectHideFlags: 0
